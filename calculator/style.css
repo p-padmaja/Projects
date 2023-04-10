@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #f9d470, #e4b311);
+}
+
+.container1 {
+    border: 21px solid black;
+    width: 345px;
+    margin: auto;
+    height: 606px;
+    border-top-left-radius: 44px;
+    border-top-right-radius: 44px;
+    border-bottom-left-radius: 44px;
+    border-bottom-right-radius: 44px;
+    background: linear-gradient(to bottom, #edf0f1, #434545);
+
+}
+
+.container2 {
+    border: 4px solid black;
+    width: 152px;
+    margin: auto;
+    height: 18px;
+    background-color: black;
+    border-bottom-left-radius: 107px;
+    border-bottom-right-radius: 107px;
+
+}
+
+.container3 {
+    margin-left: -62vw;
+    margin-top: 64px;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.bgyellow {
+    background-color: rgb(254, 159, 6);
+    color: whites;
+}
+
+.bgyellow:hover {
+    background-color: white
+}
+
+.bgGray {
+    color: black;
+    background-color: rgb(165, 165, 165);
+}
+
+.bgGray:hover {
+    background-color: white
+}
+
+.bgDgray {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.bgDgray:hover {
+    background-color: rgb(165, 165, 165);
+
+}
+
+.footer {
+    font-size: 10px;
+    margin-top: 5px;
+
+}
+
+.text-center {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 16vw;
+    margin-left: 25vw;
+    width: 22vw;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation:
+        typing 3s steps(40, end),
+        blink-caret .75s step-end infinite;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+.bg-red {
+    background: red;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.items-center {
+    align-items: center;
+
+}
